@@ -1,9 +1,9 @@
-FROM ghcr.io/typst/typst
+FROM ghcr.io/typst/typst:latest
 
 LABEL \
 	org.opencontainers.image.title="Typst GitHub action based on ghcr.io/typst/typst image" \
-	org.opencontainers.image.authors="Louis Vignoli <louis.vignoli@gmail.com>" \
-	org.opencontainers.image.source="https://github.com/lvignoli/typst-action"
+	org.opencontainers.image.authors="Je Sian Keith Herman <contact@jskherman.com>" \
+	org.opencontainers.image.source="https://github.com/jskherman/typst-action"
 
 RUN apk add python3
 
